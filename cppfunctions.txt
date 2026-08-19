@@ -1,3 +1,20 @@
+#SORTING
 sort(arr_name, arr_name+length, comp_function); -> in place
 sort(arr_name, arr_name+length, less<int>()[optional]) ->ascending
 sort(arr_name, arr_name+length, greater<int>()) ->descending
+
+#COUNT
+count(arr,arr+len,element)
+
+#FIND
+find(arr,arr+len,element) -arr;     //if element not found, returns size of array
+
+#ARRAY EQUALITY
+equal(arr1, arr1+len, arr2)-> bool value
+
+#REVERSE ARRAY
+reverse(nums,nums+len) -> in place reverse
+
+~~~~~~~~VECTOR~~~~~~
+#SWAP
+swap(vec[1],vec[2]);
