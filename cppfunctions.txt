@@ -18,3 +18,19 @@ reverse(nums,nums+len) -> in place reverse
 ~~~~~~~~VECTOR~~~~~~
 #SWAP
 swap(vec[1],vec[2]);
+
+#COUNT
+count(vec1.begin(),vec1.end(),element);
+
+#ERASE
+v.erase(vec1.begin()+index);
+
+# ADD ELEMENT AT INDEX
+v.insert(v.begin()+index,val);
+v1.insert(v1.end(),v2.begin(),v.end());
+
+#LOCATION
+find(v.begin(),v.end(),element) - v.begin();
+
+#REVERSE
+reverse(v.begin(),v.end());
