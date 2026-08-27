@@ -12,5 +12,4 @@ int main() {
 	if (e>o)    cout<<"Even";
 	else if (o>e)   cout<<"Odd";
 	else    cout<<"Tie";
-
 }

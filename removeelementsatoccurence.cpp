@@ -8,5 +8,4 @@ int main() {
 	int c=count(v.begin(),v.end(),1);
 	v.erase(v.begin()+c);
 	for(int i=0;i<n-1;i++)    cout<<v[i]<<" ";
-
 }
