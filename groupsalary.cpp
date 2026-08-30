@@ -1,3 +1,4 @@
+//Group salary
 #include <bits/stdc++.h>
 using namespace std;
 
