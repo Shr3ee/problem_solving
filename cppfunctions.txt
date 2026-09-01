@@ -34,3 +34,7 @@ find(v.begin(),v.end(),element) - v.begin();
 
 #REVERSE
 reverse(v.begin(),v.end());
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~STRING~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#
