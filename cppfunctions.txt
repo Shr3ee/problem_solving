@@ -35,6 +35,14 @@ find(v.begin(),v.end(),element) - v.begin();
 #REVERSE
 reverse(v.begin(),v.end());
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~STRING~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~String~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#
+#conversion
+(char)var
+(int)var
+
+#right rotation
+string rr_s=s.substr(n-k,k)+s.substr(0,n-k);
+
+#left rotation
+string lr_s=s.substr(k,n-k)+s.substr(0,k);
