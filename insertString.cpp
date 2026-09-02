@@ -5,7 +5,7 @@ int main() {
     string s, x;
     int k;
     getline(cin,s);
-    cin>>x;
+    getline(cin,x);
     cin>>k;
     string result="";
     for (int i=0;i<s.length();i++) {
