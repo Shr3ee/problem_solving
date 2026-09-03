@@ -7,7 +7,7 @@ sort(arr_name, arr_name+length, greater<int>()) ->descending
 count(arr,arr+len,element)
 
 #FIND
-find(arr,arr+len,element) -arr;     //if element not found, returns size of array
+find(arr,arr+len,element) -arr;  //if element not found, returns size of array
 
 #ARRAY EQUALITY
 equal(arr1, arr1+len, arr2)-> bool value

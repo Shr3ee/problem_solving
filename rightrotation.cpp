@@ -1,10 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int main() {
+	int n,k;cin>>n>>k;
+	cin.ignore();
 	string s;
 	getline(cin,s);
-	int k;cin>>k;
-	k=k%s.length();
-	cout<<s.substr(s.length()-k)+s.substr(0,s.length()-k);
+	cout<<s.substr(n-k,k)+s.substr(0,n-k);
 }
