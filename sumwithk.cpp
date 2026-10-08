@@ -1,4 +1,3 @@
-//Sum with k
 #include <bits/stdc++.h>
 using namespace std;
 
